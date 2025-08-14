@@ -1,0 +1,7 @@
+import pandas as pd
+df = pd.DataFrame([{'Ram':25,'Anil':29,'Simple':23},{'Ram':25,'Anil':29,'Simple':23},{'Ram':25,'Anil':29,'Simple':23}],index=['R1','R2','R3'])
+print(df)
+df['Anil']=[18,22,25]
+print(df)
+df['Parth']=[28,12,30]
+print(df)

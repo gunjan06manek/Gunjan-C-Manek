@@ -1,0 +1,6 @@
+import pandas as pd
+S1 = pd.Series([10,20,30,40])
+S2 = pd.Series([11,22,33,44])
+S3 = pd.Series([24,44,54,24])
+df = pd.DataFrame(S1)
+print(df)
